@@ -1,0 +1,23 @@
+[
+  {
+    "image": "../images/Avocado-Salad.png",
+
+    "title": "Avocado Salad",
+    "description": "A creamy blend of ripe avocado, cherry tomatoes, red onions, and fresh lime juice, offering a rich and refreshing flavor.",
+    "price": 12
+  },
+  {
+    "image": "../images/Cucumber-salad.png",
+
+    "title": "Cucumber Salad",
+    "description": "Cool and crisp cucumbers mixed with red onions and a light vinegar dressing, perfect for a refreshing and tangy side.",
+    "price": 13
+  },
+  {
+    "image": "../images/greek-salad.png",
+
+    "title": "Greek Salad",
+    "description": "A vibrant mix of tomatoes, cucumbers, red onions, olives, and feta cheese, all tossed in a classic olive oil and herb dressing.",
+    "price": 12.5
+  }
+]

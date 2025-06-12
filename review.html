@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>review</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <style>
+        /* Review Section */
+.testimonials {
+  margin: 25px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.testimonials h1 {
+  color: #38532f;
+  font-size: 1.8rem;
+  margin-top: 3.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.testimonial-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.testimonial-card {
+  background-color: #fefefc;
+  border: 2px solid #606c38;
+  border-radius: 16px;
+  width: 250px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  margin-bottom: 40px;
+}
+
+.testimonial-card p {
+  color: #6d8a59;
+  font-size: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.user-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.user-info span {
+  font-weight: 800;
+  color: #6b4f1d;
+}
+
+h5 {
+  font-size: 1.3rem;
+  margin-bottom: 40px;
+  text-align: left;
+  color: #38532f;
+  font-weight: 500px;
+}
+
+.rating-category {
+  display: inline-block;
+  margin: 0 30px;
+}
+
+.category-title {
+  color: #38532fe1;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+}
+
+.star {
+  color: #ffeaa7; /* soft yellow */
+}
+
+.star.selected {
+  color: orange;
+}
+
+/* responsive for review section */
+@media (max-width: 768px) {
+  .testimonials {
+    margin-top: 0rem;
+  }
+  .testimonial-card {
+    padding: 10px;
+  }
+  .testimonial-card p {
+    font-size: 15px;
+  }
+}
+
+    </style>
+</head>
+<body>
+      <!-- Review section -->
+    <section class="testimonials" id="review">
+      <h1>What Our Customers Say</h1>
+      <div class="testimonial-container">
+        <div class="testimonial-card">
+          <p>
+            The meals are fresh, flavorful, and beautifully presented.
+            <br />Highly recommend!
+          </p>
+          <div class="user-info">
+            <img src="../images/dory.jpg" alt="Dory" />
+            <span">Dory</span>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <p>
+            Highly recommended for anyone looking for healthy dining experience.
+          </p>
+          <div class="user-info">
+            <img src="../images/ami.jpg" alt="Ami" />
+            <span>Ami</span>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <p>
+            Green Delight offers the best vegetarian meals. <br />Highly Highly
+            recommend!
+          </p>
+          <div class="user-info">
+            <img src="../images/dora.jpg" alt="Dora" />
+            <span>Dora</span>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <p>
+            Delicious food for vegetarians. <br />Would love to see even more
+            vegan options!
+          </p>
+          <div class="user-info">
+            <img src="../images/anni.jpg" alt="Anni" />
+            <span>Anni</span>
+          </div>
+        </div>
+      </div>
+
+      <h5>
+        Help us make Green Delight even better! Rate your experience with us.
+      </h5>
+
+      <div class="rating-category" data-category="food">
+        <div class="category-title">Food</div>
+        <div class="stars"></div>
+      </div>
+
+      <div class="rating-category" data-category="service">
+        <div class="category-title">Service</div>
+        <div class="stars"></div>
+      </div>
+
+      <div class="rating-category" data-category="budget">
+        <div class="category-title">Budget-Friendly</div>
+        <div class="stars"></div>
+      </div>
+    </section>
+
+    <script src="../js/review-stars.js"></script>
+
+</body>
+</html>

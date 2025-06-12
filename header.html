@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>header</title>
+    <style>
+      /* header section */
+      .promo-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 30px 50px;
+        min-height: 80vh;
+      }
+
+      .promo-text {
+        flex: 1;
+        min-width: 300px;
+        max-width: 600px;
+      }
+
+      .subheading {
+        font-size: 1rem;
+        text-transform: uppercase;
+        color: #6d8a59;
+        margin-bottom: 10px;
+      }
+
+      .heading {
+        font-size: 2.8rem;
+        font-weight: bold;
+        color: #2f3b1c;
+        margin-bottom: 10px;
+      }
+
+      .heading span {
+        color: #4caf50;
+      }
+
+      .tagline {
+        font-size: 1.4rem;
+        font-weight: 900;
+        color: #4f5d2f;
+        margin-top: 15px;
+      }
+
+      .description {
+        font-weight: 500;
+        font-size: 1.1rem;
+        color: #6d8a59;
+        margin-top: 10px;
+        line-height: 1.6;
+      }
+
+      .buttons {
+        margin-top: 20px;
+      }
+
+      .see-menu {
+        text-decoration: none;
+        padding: 13px 40px;
+        font-size: 20px;
+        margin-right: 10px;
+        border-radius: 3px;
+        font-weight: 600;
+        display: inline-block;
+        background-color: #66c55dcc;
+        color: white;
+      }
+
+      .see-menu:hover {
+        background-color: #66c55d;
+        color: #2f3b1c;
+        transition: 0.3s ease;
+      }
+
+      .image img {
+        width: 350px;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 50%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        margin-right: 100px;
+      }
+
+      /* responsive for header section*/
+      @media screen and (min-width: 768px) and (max-width: 1024px) {
+        .promo-container {
+          flex-direction: column;
+          align-items: center;
+          padding: 20px;
+          text-align: center;
+          margin-top: 40px;
+        }
+
+        .promo-text {
+          width: 100%;
+        }
+
+        .heading {
+          font-size: 2rem;
+          margin-bottom: 2px;
+        }
+
+        .tagline {
+          font-size: 1.2rem;
+          margin-bottom: 2px;
+          text-align: center;
+        }
+
+        .description {
+          font-size: 1rem;
+        }
+
+        .buttons {
+          margin-top: 20px;
+          margin-right: 20px;
+        }
+
+        .image img {
+          margin: 0;
+          width: 280px;
+          height: 280px;
+          display: none;
+        }
+
+        .btn {
+          display: inline-block;
+          margin: 5px;
+        }
+      }
+
+      @media screen and (max-width: 767px) {
+        .promo-container {
+          flex-direction: column;
+          align-items: center;
+          padding: 20px;
+          text-align: center;
+          margin-top: 40px;
+        }
+
+        .promo-text {
+          width: 100%;
+        }
+
+        .heading {
+          font-size: 2rem;
+        }
+
+        .tagline {
+          font-size: 1.2rem;
+          margin-bottom: 2px;
+          text-align: center;
+        }
+
+        .description {
+          font-size: 1rem;
+        }
+
+        .buttons {
+          margin-top: 20px;
+          margin-right: 20px;
+        }
+
+        .image img {
+          margin: 0;
+          width: 280px;
+          height: 280px;
+          display: none;
+        }
+
+        .btn {
+          display: inline-block;
+          margin: 5px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- header section -->
+    <section class="promo-container">
+      <div class="promo-text">
+        <h4 class="subheading">WHERE EVERY BOWL BURSTS WITH GOODNESS.</h4>
+        <h1 class="heading">WHAT’S <span>YOUR FLAVOR?</span></h1>
+        <h3 class="tagline">VEGETARIAN SALAD DELIGHT</h3>
+        <p class="description">
+          Dig into the perfect mix of crisp greens, wholesome grains, and
+          vibrant veggies – our salads are your fresh escape. Elevate your
+          mealtime with a colorful, nutritious bowl made just the way you like
+          it.
+        </p>
+        <div class="buttons">
+          <a href="menu.html" class="btn see-menu">Explore Our Menu </a>
+        </div>
+      </div>
+      <div class="image">
+        <img src="../images/fruit-salad.png" alt="Fresh Vegetarian Salad" />
+      </div>
+    </section>
+  </body>
+</html>

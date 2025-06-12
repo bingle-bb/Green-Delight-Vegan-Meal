@@ -1,0 +1,202 @@
+{
+  "fruits": [
+    {
+      "id": "f1",
+      "title": "Mango Tango",
+      "description": "Mango, avocado, red pepper, and cilantro with lime.",
+      "price": 10,
+      "rating": 8.5,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6u7lSLL8ThEH8ENSxa55S58rLAm_bjlxhNw&s"
+    },
+    {
+      "id": "f2",
+      "title": "Cobb Salad",
+      "description": "Fresh avocado, greens, cherry tomatoes, and tangy lime.",
+      "price": 10.5,
+      "rating": 9.2,
+      "img": "https://ourzestylife.com/wp-content/uploads/2023/09/Avocado-Salad-OurZestyLife-10.jpg"
+    },
+    {
+      "id": "f3",
+      "title": "Winter Fruit Salad",
+      "description": "Apple, orange, kiwi with a touch of zesty orange juice.",
+      "price": 11,
+      "rating": 8.9,
+      "img": "https://www.onelovelylife.com/wp-content/uploads/2019/11/Winter-Fruit-Salad11SM.jpg"
+    },
+    {
+      "id": "f4",
+      "title": "Citrus Splash ",
+      "description": "Orange, grapefruit, and lemon zest on a bed of spinach.",
+      "price": 9.5,
+      "rating": 8.3,
+      "img": "https://www.themediterraneandish.com/wp-content/uploads/2024/01/Citrus-Salad-8.jpg"
+    },
+    {
+      "id": "f5",
+      "title": "Fresh Berry Salad",
+      "description": "Strawberries, blueberries, raspberries, and honey drizzle.",
+      "price": 10,
+      "rating": 9.0,
+      "img": "https://oursaltykitchen.com/wp-content/uploads/2023/05/berry-salad-featured-image.jpg"
+    },
+    {
+      "id": "f6",
+      "title": "Cucumber Mint ",
+      "description": "Cool cucumber slices with  mint leaves, and olive oil.",
+      "price": 9.8,
+      "rating": 8.7,
+      "img": "https://www.homemademastery.com/wp-content/uploads/2024/07/cucumber-salad-with-mint-IMG_0117-720x720.jpg"
+    }
+  ],
+  "bean": [
+    {
+      "id": "b1",
+      "title": "Chickpea Delight",
+      "description": "Chickpeas, cucumber, onion, and tahini-lime dressing.",
+      "price": 9.5,
+      "rating": 8.8,
+      "img": "https://www.noracooks.com/wp-content/uploads/2021/05/144A4654.jpg"
+    },
+    {
+      "id": "b2",
+      "title": "Black Bean Bowl",
+      "description": "Black beans, corn, avocado, and chili flakes.",
+      "price": 10.2,
+      "rating": 9.0,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6Ol12Z3pPapyHcZ1162LLAZ--lL7UK8YLEw&s"
+    },
+    {
+      "id": "b3",
+      "title": "Lentil & Veg Mix",
+      "description": "Brown lentils with carrots, zucchini, and herbs.",
+      "price": 11,
+      "rating": 9.3,
+      "img": "https://www.budgetbytes.com/wp-content/uploads/2021/12/Spiced-Lentils-close.jpg"
+    },
+    {
+      "id": "b4",
+      "title": "Three Bean Salad",
+      "description": "Kidney beans, garbanzo beans, with red onion.",
+      "price": 10,
+      "rating": 8.6,
+      "img": "https://images.themodernproper.com/production/posts/2023/ThreeBeanSalad_11.jpg?w=960&h=960&q=82&fm=jpg&fit=crop&dm=1684243875&s=28c8714ba1e2218092a0138911e7fae8"
+    },
+    {
+      "id": "b5",
+      "title": "Spicy Bean Balls",
+      "description": "Mixed beans, cloves garlic, and small onions.",
+      "price": 9.8,
+      "rating": 8.4,
+      "img": "https://moorlandseater.com/wp-content/uploads/2022/06/Spicy-Bean-Balls-featured-Moorlands-Eater-wDSC05325.jpg"
+    },
+    {
+      "id": "b6",
+      "title": "Sprout & Bean ",
+      "description": "Bean sprouts and mung beans with sesame oil.",
+      "price": 9.7,
+      "rating": 8.5,
+      "img": "https://omnivorescookbook.com/wp-content/uploads/2022/07/220601_Bean-Sprout-Salad_550.jpg"
+    }
+  ],
+  "pasta": [
+    {
+      "id": "p1",
+      "title": "Zoodle Garden",
+      "description": "Zucchini noodles with cherry tomatoes and basil pesto.",
+      "price": 10.5,
+      "rating": 9.1,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_iZkgkad2uehSG2OAsw7VUc6tgflFzfvCAQ&s"
+    },
+    {
+      "id": "p2",
+      "title": "Whole Wheat ",
+      "description": "Whole wheat pasta with spinach and garlic olive oil.",
+      "price": 11,
+      "rating": 9.0,
+      "img": "https://www.acleanplate.com/wp-content/uploads/2011/09/Veggie-Delight-Salad-Recipe-1-768x1155.jpg"
+    },
+    {
+      "id": "p3",
+      "title": "Pesto Penne",
+      "description": "Penne pasta tossed in homemade basil pesto.",
+      "price": 10.3,
+      "rating": 8.7,
+      "img": "https://debraklein.com/wp-content/uploads//2021/06/Pesto-Pasta-Salad-12.jpg"
+    },
+    {
+      "id": "p4",
+      "title": "Rainbow Pasta ",
+      "description": "Tri-color pasta with seasonal roasted vegetables.",
+      "price": 11.2,
+      "rating": 9.2,
+      "img": "https://www.crazyvegankitchen.com/wp-content/uploads/2016/08/Vegan-Rainbow-Pasta-Salad-4.jpg"
+    },
+    {
+      "id": "p5",
+      "title": "Vegan Cream Shells",
+      "description": "Shell pasta with creamy vegan cheese sauce.",
+      "price": 11.5,
+      "rating": 9.4,
+      "img": "https://wdove.b-cdn.net/wp-content/uploads/2022/04/Easy-Avocado-Pasta-Slad-3-768x863.jpg"
+    },
+    {
+      "id": "p6",
+      "title": "Tomatoes  Basil Twist",
+      "description": "Fusilli pasta with tomato sauce and fresh basil.",
+      "price": 10.8,
+      "rating": 8.9,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTliqI3J5YXVfsZxHWoeG1IKZmZfjx0VQmhDA&s"
+    }
+  ],
+  "grain": [
+    {
+      "id": "g1",
+      "title": "Quinoa Energy ",
+      "description": "Quinoa, black beans, corn, and avocado lime dressing.",
+      "price": 11.2,
+      "rating": 9.1,
+      "img": "https://www.inspiredtaste.net/wp-content/uploads/2019/01/Easy-Quinoa-Salad-Recipe-1200.jpg"
+    },
+    {
+      "id": "g2",
+      "title": "Brown Rice Medley",
+      "description": "Brown rice with mixed vegetables and tamari sauce.",
+      "price": 10.4,
+      "rating": 8.6,
+      "img": "https://www.garlicandzest.com/wp-content/uploads/2020/08/wild-rice-salad.jpg"
+    },
+    {
+      "id": "g3",
+      "title": "Barley Veg Mix",
+      "description": "Barley, peas, carrots, and lemon vinaigrette with Parsley",
+      "price": 11.3,
+      "rating": 8.8,
+      "img": "https://i0.wp.com/tastysimplyvegan.com/wp-content/uploads/2024/12/462583574_556421863921864_4008412552625390714_n.jpg?fit=1536%2C2048&ssl=1"
+    },
+    {
+      "id": "g4",
+      "title": "Couscous Garden",
+      "description": "Couscous with roasted bell peppers, herbs, and garlic.",
+      "price": 10.9,
+      "rating": 9.0,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuC7g6uoH1b_BimkfYcCR9QmO9D0vU-Fgj8g&s"
+    },
+    {
+      "id": "g5",
+      "title": "Wild Rice Fusion",
+      "description": "Wild rice, cranberries, nuts, and citrus dressing.",
+      "price": 11.5,
+      "rating": 9.2,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMlArR1BKI9xyuc0XA-M6kDSWeQiIFajAlo4Osor0t1A1SEbj1dduXDdRP4HjlTWkWL3E&usqp=CAU"
+    },
+    {
+      "id": "g6",
+      "title": "Farro Fiesta Bowl",
+      "description": "Farro, corn, peppers, beans, and cumin-lime sauce.",
+      "price": 11,
+      "rating": 9.1,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJnZaXNzTFd9Lga4VwxcBL07AgoxWqBcqHAmr-H1NdbnfUzBnImlaIz0ttGUnDsBt_29Y&usqp=CAU"
+    }
+  ]
+}

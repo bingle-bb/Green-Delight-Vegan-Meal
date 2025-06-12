@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Page with Scroll Button</title>
+  </head>
+  <body>
+    <!-- Scroll Button Placeholder -->
+    <div id="scrollBtnContainer"></div>
+
+    <!-- Load the button from external file -->
+    <script>
+      fetch("scroll-to-top.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("scrollBtnContainer").innerHTML = data;
+        });
+    </script>
+  </body>
+</html>

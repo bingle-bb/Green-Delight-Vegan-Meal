@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Green Delight | Home</title>
+    <link rel="shortcut icon" href="images/fav-img.png" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <style>
+      #scrollTopBtn {
+        display: none;
+        position: fixed;
+        bottom: 40px;
+        right: 30px;
+        border: none;
+        outline: none;
+        background-color: #4fac32bb;
+        color: #8b6f4d;
+        cursor: pointer;
+        padding: 12px;
+        border-radius: 10px;
+      }
+
+      #scrollTopBtn:hover {
+        background-color: #4eac32;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- header section -->
+    <section id="header"></section>
+
+    <!-- nav -->
+    <div id="nav-container"></div>
+
+    <!-- topMenu section -->
+    <section class="topMenu-container">
+      <div class="topheader-text">
+        <h1 class="topHeading">Upcoming Menu</h1>
+        <p class="subtitle">On the Menu Soon</p>
+      </div>
+      <!-- topmenu div -->
+      <div id="menu-items" class="menu"></div>
+    </section>
+
+    <!-- Review section -->
+    <section id="review"></section>
+
+    <!-- contact-us section  -->
+    <section id="contact-us"></section>
+
+    <!-- footer -->
+    <div id="footer"></div>
+
+    <!-- scroll -->
+    <div id="scrollBtnContainer"></div>
+
+    <button onclick="scrollToTop()" id="scrollTopBtn" title="Go to top">
+      <i style="font-size: 20px" class="fas">&#xf062;</i>
+    </button>
+
+    <!-- script src -->
+    <script src="../js/toggle.js"></script>
+    <script src="../js/review-stars.js"></script>
+    <script src="../js/sectionFetch.js"></script>
+    <script src="../js/iconsToggle.js"></script>
+    <script src="../js/addtoCart.js"></script>
+    <script src="../js/scrolltoTop.js"></script>
+    <script>
+      fetch("topMenu.json")
+        .then((response) => response.json())
+        .then((data) => {
+          const menuContainer = document.getElementById("menu-items");
+          data.forEach((item) => {
+            const topCard = document.createElement("div");
+            topCard.className = "topCard";
+            topCard.innerHTML = `
+          <img src="${item.image}" alt="${item.title}" />
+          <div class="rating"><i class="fa-solid fa-star" style="opacity: 0.5;"></i></div>
+          <div class="title">${item.title}</div>
+          <div class="description2">${item.description}</div>
+         
+        `;
+            menuContainer.appendChild(topCard);
+          });
+        })
+        .catch((error) => console.error("Error loading menu:", error));
+    </script>
+  </body>
+</html>

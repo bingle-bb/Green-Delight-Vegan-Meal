@@ -1,0 +1,152 @@
+.menu-description {
+  font-size: 19px;
+  font-weight: 600;
+  align-items: right;
+  color: #555;
+  line-height: 1.5;
+  text-transform: uppercase;
+  width: fit-content;
+  padding: 50px;
+}
+
+h1 {
+  font-weight: 550;
+  color: #5b7947;
+  text-align: center;
+}
+
+/* Tab container spacing */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Style for the nav-tabs */
+.nav-tabs {
+  border-bottom: none;
+  justify-content: center;
+}
+
+/* Style for each nav-link */
+.nav-tabs .nav-link {
+  color: #555;
+  font-weight: 500;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.nav-tabs .nav-link:hover {
+  background-color: #f8f9fa75;
+  color: #000;
+}
+
+/* Active tab */
+.nav-tabs .nav-link.active {
+  background-color: #708f5ca6;
+  color: #000;
+  border: none;
+  border-bottom: 2px solid #708f5ca6;
+}
+
+/* Optional: Add spacing around the tabs */
+.nav-item {
+  margin: 0 5px;
+}
+
+.fancyCard {
+  background: #fefefca8;
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin-left: 60px;
+  width: 100%;
+  max-width: 260px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.07);
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+
+.fancyCard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+.fancyCard img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.cardRating {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: #ffedaf;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 13px;
+  color: #a96f00;
+  font-weight: 500;
+}
+
+.cardTitle {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.cardDesc {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 12px;
+}
+
+.priceAdd {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.priceTag {
+  font-size: 16px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.add-to-cart {
+  background: #d6dc72;
+  border: none;
+  padding: 6px 12px;
+  font-size: 18px;
+  color: #000;
+  border-radius: 10px;
+  transition: background 0.2s;
+}
+
+.add-to-cart:hover {
+  background: #c8cf58;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .fancyCard {
+    width: 95%;
+    margin-left: 65px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .fancyCard {
+    max-width: 90%;
+    margin: 16px;
+    margin-left: 36px;
+    padding: 10px;
+  }
+}
